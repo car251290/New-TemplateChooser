@@ -1,0 +1,2 @@
+C:\Users\jcarreno\source\repos\Templatechooser21\Templatechooser21\obj\Debug\Templatechooser21.csprojAssemblyReference.cache
+C:\Users\jcarreno\source\repos\Templatechooser21\Templatechooser21\obj\Debug\Templatechooser21.csproj.CoreCompileInputs.cache

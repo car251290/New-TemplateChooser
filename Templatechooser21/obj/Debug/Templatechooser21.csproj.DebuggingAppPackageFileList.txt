@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\Templatechooser21Manifest.xml
+C:\Users\jcarreno\source\repos\Templatechooser21\Templatechooser21\bin\Debug\Templatechooser21.debugapp

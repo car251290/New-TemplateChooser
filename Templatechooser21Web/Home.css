@@ -1,0 +1,194 @@
+﻿/* Page-specific styling */
+
+/*  ALL*/
+body {
+    margin: 0; /* Margin of the bar */
+    font-family: Segoe UI, Segoe UI, serif; /* The style of the letter */
+    text-align: left; /* Text align */
+}
+/* IconButton and text */
+.btn {
+    background-color: #f3f2f1; /* Blue background */
+    border: none; /* Remove borders */
+    color: #484644; /* black text */
+    padding: 15px 23px; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-align: right; /* The text alination */
+    left: 60px; /* Left of All the bar */
+    width: 100%; /* Width of All the bar*/
+    display: block; /* Block All */
+    margin-top: 1px; /* Margin All the top */
+}
+    /* IconButton All and text */
+    .btn :after {
+        font-family: Segoe UI, Segoe UI, serif; /* Comment with the letter */
+        content: 'ALL'; /* Text All of the bar */
+        color: #000000;
+        align-content: center; /* For center the text */
+        visibility: visible; /* Visibility with of the text */
+        position: absolute; /* Absolute in the bar */
+        cursor: pointer; /* Cursor that pointer to the text */
+        background-color: #f3f2f1; /* Color of the text */
+        top: 2px 2px 2px 1px; /* Top of the text*/
+        left: 20px; /* The text to the left */
+        float: left; /* Float to left */
+    }
+    /* Darker background on mouse-over */
+    .btn:hover {
+        background-color: #f3f2f1; /* The color of the back ground when the button is display */
+    }
+/* The Item of All display */
+#myDIV {
+    width: 100%; /* The width of the Templates documents*/
+    font-family: Segoe UI, Segoe UI, serif; /* Letter */
+    padding: 12px 0px; /* The padding for the document and the bar */
+    text-align: left; /* The alination of the document Templates*/
+    margin-top: 1.5px; /* The margin it has */
+    background-color: white; /* The background color */
+    display: block; /* Display block */
+}
+
+/* Button Green */
+
+/* IconButton green bar and text */
+.Button2 {
+    background-color: #f3f2f1; /* Blue background */
+    border: none; /* Remove borders */
+    color: #484644; /* White text */
+    padding: 15px 23px; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-align: right; /* Text alination */
+    right: 60px; /* Right text */
+    width: 100%; /* Width of the bar */
+    display: block; /* Display the block bar */
+    margin-top: 1.5px; /* Margin top bar */
+}
+    /* IconButton green bar and text */
+    .Button2 :after {
+        font-family: Segoe UI, Segoe UI, serif; /* Comment with the letter */
+        content: 'Green'; /* Text green of the bar */
+        color: #000000;
+        align-content: center; /* For center the text */
+        visibility: visible; /* Visibility with of the text */
+        position: absolute; /* Absolute in the bar */
+        cursor: pointer; /* Cursor that pointer to the text */
+        background-color: #f3f2f1; /* Color of the text */
+        top: 2px 2px 2px 1px; /* Top of the text*/
+        left: 20px; /* The text to the left */
+        float: left; /* float to left */
+    }
+
+    /* Darker background green bar on mouse-over */
+    .Button2:hover {
+        background-color: #f3f2f1; /* The color of the back ground when the button is display */
+    }
+
+/* The Item display */
+#myDIV2 {
+    width: 100%; /* The width of the Templates documents*/
+    font-family: Segoe UI, Segoe UI, serif; /* The tip ofLetter */
+    padding: 12px 0px; /* The padding for the document and the bar */
+    text-align: left; /* The alination of the document Templates*/
+    margin-top: 1.5px; /* The margin it has */
+    background-color: white; /* The background color */
+    display: block; /* Display block */
+}
+
+/* Button Red */
+
+/* IconButton red bar and text */
+.Button3 {
+    background-color: #f3f2f1; /* Red bar word background */
+    border: none; /* Remove borders */
+    text-decoration-color: #484644;
+    color: #484644; /* White text */
+    padding: 15px 23px; /* Padding of the icon */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-align: right; /* Text alination */
+    right: 60px; /* Right text */
+    width: 100%; /* Width of the bar */
+    display: block; /* Display the block bar */
+    margin-top: 1px; /* Margin top bar */
+}
+    /* IconButton red bar and text */
+    .Button3 :after {
+        font-family: Segoe UI, Segoe UI, serif; /* Comment with the letter */
+        content: 'Red'; /* Text of the Red bar */
+        align-content: center; /* For center the text */
+        color: #000000;
+        visibility: visible; /* Visibility with of the text */
+        position: absolute; /* Absolute in the bar */
+        cursor: pointer; /* Cursor that pointer to the text */
+        background-color: #f3f2f1; /* Color of the text */
+        top: 2px 2px 2px 1px; /* Top of the text*/
+        left: 20px; /* The text to the left */
+        float: left; /* Float to left */
+    }
+
+    /* Darker background on mouse-over */
+    .Button3:hover {
+        background-color: #f3f2f1; /* The color of the back ground when the button is display */
+    }
+/* The Item bar display */
+#myDIV3 {
+    width: 100%; /* The width of the Templates documents*/
+    font-family: Segoe UI, Segoe UI, serif; /* The type of letter */
+    padding: 12px 0px; /* The padding for the document and the bar */
+    text-align: left; /* The alination of the document Templates*/
+    margin-top: 1.5px; /* The margin it has */
+    background-color: white; /* The background color */
+    display: block; /* Display block */
+}
+
+/* Button Blue bar */
+
+/* Icon Button blue bar and text */
+.Button4 {
+    background-color: #f3f2f1; /* Red bar word background */
+    border: none; /* Remove borders */
+    color: #484644; /* White text */
+    padding: 15px 23px; /* Padding of the icon */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-align: right; /* Text alination */
+    right: 60px; /* Right text */
+    width: 100%; /* Width of the bar */
+    display: block; /* Display the block bar */
+    margin-top: 1px; /* Margin top bar */
+}
+    /* IconButton blue letter of the bar */
+    .Button4 :after {
+        font-family: Segoe UI, Segoe UI, serif; /* Comment with the letter */
+        content: 'Blue'; /* Text of the Blue bar */
+        align-content: center; /* For center the text */
+        color: black;
+        visibility: visible; /* Visibility with of the text */
+        position: absolute; /* Absolute in the bar */
+        cursor: pointer; /* Cursor that pointer to the text */
+        background-color: #f3f2f1; /* Color of the text */
+        top: 2px 2px 2px 1px; /* Top of the text*/
+        left: 20px; /* The text to the left */
+        float: left; /* Float to left */
+    }
+
+/* Darker background blue on mouse-over */
+.Button3:hover {
+    background-color: #f3f2f1; /* The color of the back ground when the button is display */
+}
+/* The Item blue display */
+#myDIV4 {
+    width: 100%; /* The width of the Templates documents*/
+    font-family: Segoe UI, Segoe UI, serif; /* The type of letter */
+    padding: 18px 0px; /* The padding for the document and the bar */
+    text-align: left; /* The alination of the document Templates*/
+    margin-top: 1.5px; /* The margin it has */
+    background-color: white; /* The background color */
+    display: block; /* Display block */
+}
+
+.template {
+    display: block;
+    float: left;
+    width: 5px;
+    height: 8px;
+    font-size: 12px;
+}

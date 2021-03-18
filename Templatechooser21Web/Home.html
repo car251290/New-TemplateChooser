@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Word Add-In with Commands Sample</title>
+
+    <script src="Scripts/jquery-3.5.0.js" type="text/javascript"></script>
+    <script src="Scripts/MessageBanner.js" type="text/javascript"></script>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+    <!-- To enable offline debugging using a local reference to Office.js, use:  -->
+    <!-- <script src="Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="Scripts/Office/1/office.js" type="text/javascript"></script>  -->
+
+    <script src="Home.js" type="text/javascript"></script>
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/Button.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/MessageBanner.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- For Office UI Fabric Core, go to https://aka.ms/office-ui-fabric to learn more. -->
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css">
+
+    <!-- To enable the offline use of Office UI Fabric Core, use: -->
+    <!-- link rel="stylesheet" href="Content/fabric.min.css" -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+    <!-- Office UI Fabric JS and it's components are no longer actively supported. Please see https://aka.ms/PnP-OfficeFabricReact for recommended Patterns and Practices -->
+    <!-- <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.min.css"> -->
+
+<body>
+    <!-- The button for every element -->
+    <div>
+        <button onclick="myFunction()" class="btn"> <i class="fa fa-bars"></i></button>
+
+    </div>
+    <div class="templates" id="myDIV" input type="file">
+        <!-- All templates -->
+        <!--connect to the sharepoint -->
+        <!--button onclick="myfunction()">Open folder</!-button-->
+
+        <ol>
+
+            <li>Template1</li>
+            <li>Template2</li>
+            <li>Template3</li>
+            <li>Template1</li>
+            <li>Template2</li>
+            <li>Template3</li>
+
+        </ol>
+    </div>
+    <!-- Green bar Button" -->
+    <div>
+        <button onclick="myFunction1()" class="Button2">
+            <i class="fa fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Green bar list2" -->
+    <div id="myDIV2">
+        <ol>
+            <li>Templates 4</li>
+            <li>Templates 5</li>
+            <li>Templates 3</li>
+        </ol>
+    </div>
+    <!-- Red bar button" -->
+    <div>
+        <button onclick="myFunction2()" class="Button3">
+            <i class="fa fa-bars"></i>
+        </button>
+    </div>
+    <!--Red bar list3" -->
+    <div id="myDIV3">
+        <ol>
+            <li>Templates 4</li>
+            <li>Templates 5</li>
+            <li>Templates 3</li>
+        </ol>
+    </div>
+    <!-- Blue bar button" -->
+    <div>
+        <button onclick="myFunction3()" class="Button4">
+            <i class="fa fa-bars"></i>
+        </button>
+    </div>
+    <!--Blue bar list4" -->
+    <div id="myDIV4">
+        <ol>
+            <li>Templates 4</li>
+            <li>Templates 5</li>
+            <li>Templates 3</li>
+        </ol>
+    </div>
+    <!---Fuction for the display of the list of templates "-->
+    <script>
+        // All bar function
+        const myFunction = function myfunction() {
+           
+            var All = document.getElementById("myDIV");
+            var T1 = document.getElementById("myDIV2");
+            var T2 = document.getElementById("myDIV3");
+            var T3 = document.getElementById("myDIV4");
+            // first if statement to open the All bar
+            if (All.style.display === "block") {
+                All.style.display = "none";
+                // else stamente to close the All bar
+            } else {
+                All.style.display = "block";
+                // The condition for making All the bar close when the all bar is open.
+            } if (T2.style.display === "none" && T1.style.display === "none" && T3.style.display === "none") {
+                T2.style.display = "block"
+                T1.style.display = "block"
+                T3.style.display = "block";
+                // else stamente that close All the bars.
+            } else {
+                T1.style.display = "none"
+                T2.style.display = "none"
+                T3.style.display = "none";
+                // Click again the All bar and will reset going back to the inicial point
+            } if (All.style.display === "none") {
+                All.style.display = "block";
+            } else {
+                All.style.display = "block";
+            }
+
+        }
+
+        // my function 1 and the call back function
+        const myFunction1 = function myfunction1() {
+            myfunction1();
+
+            function myfunction1() {
+                var All = document.getElementById("myDIV");
+                var T1 = document.getElementById("myDIV2");
+                var T2 = document.getElementById("myDIV3");
+                var T3 = document.getElementById("myDIV4");
+                // First if statement to open the T1 bar
+                if (T1.style.display === "block") {
+                    T1.style.display = "none";
+                    // Else stamente to close the T1 bar
+                } else {
+                    T1.style.display = "block"
+                    // The condition for making T2,T3 & All the bar close when the T1 bar is open.
+                } if (T2.style.display === "none" && All.style.display === "none" && T3.style.display === "none") {
+                    T2.style.display = "block"
+                    All.style.display = "block"
+                    T3.style.display = "block";
+                    // The condition for making T1 bar close when the T2,T3 or All bar are click it.
+                } else {
+                    T2.style.display = "none"
+                    All.style.display = "none"
+                    T3.style.display = "none";
+
+                } if (All.style.display === "block") {
+                    All.style.display = "none";
+                }
+            }
+        }
+
+        // Second bar display T2
+        const myFunction2 = function myfunction2() {
+
+            //functions to use
+            myfunction2();
+            connectSP();
+
+            //the function to connect to the sharepoint
+            function connectSP() {
+                document.getElementById("myDIV").addEventListener("click", myfunction2);
+                console.log('hello world I am call back function')
+            }
+
+            //The functionality of the button
+            function myfunction2() {
+                var All = document.getElementById("myDIV")
+                var T1 = document.getElementById("myDIV2");
+                var T2 = document.getElementById("myDIV3");
+                var T3 = document.getElementById("myDIV4");
+                // First if statement to open the T2 bar
+                if (T2.style.display === "block") {
+                    T2.style.display = "none";
+                    // Else stamente to close the T2 bar
+                } else {
+                    T2.style.display = "block"
+                    // The condition for making T1,T3 & All the bar close when the T2 bar is open.
+                } if (T1.style.display === "none" && All.style.display === "none" && T3.style.display === "none") {
+                    T1.style.display = "block"
+                    All.style.display = "block"
+                    T3.style.display = "block";
+                    // The condition for making T2 bar close when the T1,T3 or All bar are click it.
+                } else {
+                    T1.style.display = "none"
+                    All.style.display = "none"
+                    T3.style.display = "none";
+
+                } if (All.style.display === "block") {
+                    All.style.display = "none";
+                }
+            }
+        }
+
+        // Third bar display fuction T3
+        const myFunction3 = function myfunction3() {
+
+            var All = document.getElementById("myDIV");
+            var T1 = document.getElementById("myDIV2");
+            var T2 = document.getElementById("myDIV3");
+            var T3 = document.getElementById("myDIV4");
+            // First if statement to open the T3 bar
+            if (T3.style.display === "block") {
+                T3.style.display = "none";
+                // Else stamente to close the T3 bar
+            } else {
+                T3.style.display = "block";
+                // The condition for making T1,T2 & All the bar close when the T3 bar is open.
+            } if (T1.style.display === "none" && All.style.display === "none" && T2.style.display === "none") {
+                T1.style.display = "block"
+                All.style.display = "block"
+                T2.style.display = "block";
+                // The condition for making T3 bar close when the T1,T2 or All bar are click it.
+            } else {
+                T1.style.display = "none"
+                All.style.display = "none"
+                T2.style.display = "none";
+
+            } if (All.style.display === "block") {
+                All.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
