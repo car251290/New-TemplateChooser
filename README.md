@@ -2,9 +2,9 @@
 New Template Chooser
 Template-Chooser
 
-Templates for choose is to chooser word templates is storeted in SharePoint, the document display to the user choose. In many Office 365 projects, SharePoint migrations or document structure planning, the question often araises, where to store templates so that every user has access to them and, more importantly, always uses the latest version. Therefore, here is a tool powered approach that solves this problem and uses cloud technology to solve all these problems.
+Templates for choose is to chooser word templates is storeted in Sharepoint of the company, the document display to the user choose. In Office 365 projects, SharePoint or document structure planning, the question often araises, where to store templates so that every user has access to them and, more importantly, always uses the latest version. Therefore, here is a tool powered approach that solves this problem and uses cloud technology to solve all these problems.
 
-The second experience with Add-in
+## The second experience with Add-in
 
 This Add-In and I made using Visual Studio and in the same language Javascript This case selected the document and display it in the Word document, To make a chooser it will be subtitle and they click the button and each of them will display different templates there is a All button to display all of them in a single selection and easier the user will select them, depends what type of document they are looking to display in Microsoft Word.
 
@@ -14,7 +14,7 @@ Part of the CSS Code I use for making the display of the templates with a button
 
 Working in the Back end to connected to the Sharepoint is coming the code and the Template update it.
 
-body of the page
+## body of the page
 
 I choose a color that was similiar to the document of Word so it will not be contraste and for the person using it will be easy to use.
 
