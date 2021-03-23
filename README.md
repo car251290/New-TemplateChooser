@@ -24,11 +24,11 @@ I will get this steps to deploy my Webpackes to Azure
 
 Share a folder In File Explorer on the Windows computer where you want to host your add-in, go to the parent folder, or drive letter, of the folder you want to use as your shared folder catalog. Open the context menu for the folder you want to use as your shared folder catalog (right-click the folder) and choose Properties. Within the Properties dialog window, open the Sharing tab and then choose the Share button.
 
-html
+## html
 
 the body of the HTML has <script> where I indicate the src of the file of the js that will containe the html.
 
-<title></title> <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js" type="text/javascript"></script> <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js" type="text/javascript"></script> <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
 <script src="FunctionFile.js" type="text/javascript"></script>
 Javascript the next fuction is an example of the display template:
 
