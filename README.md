@@ -42,7 +42,7 @@ function displaytemplates() {
         //add-in container for display the imagine with the url and the class html addin 
         $(".templates").append(
             '<div class= "tn">' +
-            '<a" http://localhost/46TemplateChooserWeb/Templates' + File + '" alt = "templates" /> ' +
+            '<a" http://TemplateChooserWeb/Templates' + File + '" alt = "templates" /> ' +
             '</div>'
         );
     }
