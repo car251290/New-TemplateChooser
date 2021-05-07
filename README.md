@@ -14,15 +14,10 @@ Part of the CSS Code I use for making the display of the templates with a button
 
 Working in the Back end to connected to the Sharepoint is coming the code and the Template update it.
 
-## body of the page
-
-I choose a color that was similiar to the document of Word so it will not be contraste and for the person using it will be easy to use.
-
-Sideload Office Add-ins for testing from a network share
-
-I will get this steps to deploy my Webpackes to Azure
-
 Share a folder In File Explorer on the Windows computer where you want to host your add-in, go to the parent folder, or drive letter, of the folder you want to use as your shared folder catalog. Open the context menu for the folder you want to use as your shared folder catalog (right-click the folder) and choose Properties. Within the Properties dialog window, open the Sharing tab and then choose the Share button.
+
+## Deploy it in Azure
+Making a web application on Azure for the API and using back end code I will get the successful connection, using conceptes as MVC for my model and making my life easier and understandoble my code.
 
 ## html
 
