@@ -16,7 +16,7 @@ Working in the Back end to connected to the Sharepoint is coming the code and th
 
 Share a folder In File Explorer on the Windows computer where you want to host your add-in, go to the parent folder, or drive letter, of the folder you want to use as your shared folder catalog. Open the context menu for the folder you want to use as your shared folder catalog (right-click the folder) and choose Properties. Within the Properties dialog window, open the Sharing tab and then choose the Share button.
 
-## Deploy it in Azure
+## Deploy to Azure Web Server
 Making a web application on Azure for the API and using back end code I will get the successful connection, using conceptes as MVC for my model and making my life easier and understandoble my code.
 
 ## html
