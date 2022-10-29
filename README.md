@@ -19,6 +19,10 @@ Share a folder In File Explorer on the Windows computer where you want to host y
 ## Deploy to Azure Web Server
 Making a web application on Azure for the API and using back end code I will get the successful connection, using conceptes as MVC for my model and making my life easier and understandoble my code.
 
+## SharePoint
+A SharePoint Add-in is a self-contained piece of functionality that extends the capabilities of SharePoint websites to solve a well-defined business problem.
+Add-ins don't have custom code that runs on SharePoint servers. Instead, all custom logic moves "up" to the cloud, or "down" to client computers, or "over" to an on-premises server that is outside the SharePoint farm or SharePoint Online subscription.
+
 ## html
 
 the body of the HTML has <script> where I indicate the src of the file of the js that will containe the html.
