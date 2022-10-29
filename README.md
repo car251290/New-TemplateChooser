@@ -23,6 +23,9 @@ Making a web application on Azure for the API and using back end code I will get
 A SharePoint Add-in is a self-contained piece of functionality that extends the capabilities of SharePoint websites to solve a well-defined business problem.
 Add-ins don't have custom code that runs on SharePoint servers. Instead, all custom logic moves "up" to the cloud, or "down" to client computers, or "over" to an on-premises server that is outside the SharePoint farm or SharePoint Online subscription.
 
+All SharePoint Add-ins that users install get a tile on the Site Contents page of the SharePoint website. Clicking the tile runs the add-in.
+A SharePoint Add-in is configured using an add-in manifest—an XML file that declares the add-in's basic properties, where it runs, and what SharePoint should do when the add-in starts
+
 ## html
 
 the body of the HTML has <script> where I indicate the src of the file of the js that will containe the html.
